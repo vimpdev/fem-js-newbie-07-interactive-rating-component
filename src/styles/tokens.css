@@ -1,0 +1,51 @@
+@layer tokens {
+
+  :root {
+    /* Primitive tokens */
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+    --clr-grey-950: #131518;
+    --clr-grey-900: #262E38;
+    --clr-grey-500: #969FAD;
+    --clr-orange-500: #FC7614;
+
+    --gradient-card: radial-gradient(#232A34, #181E27);
+
+    --space-0: 0;
+    --space-100: 0.5rem;
+    --space-200: 1rem;
+    --space-300: 1.5rem;
+    --space-400: 2rem;
+    --space-500: 2.5rem;
+    --space-1300: 6.5rem;
+    --space-1700: 8.5rem;
+
+    /* Semantic tokens */
+
+    --clr-text-primary: var(--clr-white);
+    --clr-text-secondary: var(--clr-grey-500);
+    --clr-text-accent: var(--clr-orange-500);
+    --clr-text-on-accent: var(--clr-grey-950);
+
+    --clr-surface-page: var(--clr-grey-950);
+    --clr-surface-accent: var(--clr-orange-500);
+    --clr-surface-interactive: var(--clr-grey-900);
+    --clr-surface-interactive-hover: var(--clr-white);
+
+    --surface-card: var(--gradient-card);
+
+    --ff-base: 'Overpass', system-ui, sans-serif;
+
+    --fs-heading: clamp(1.5rem, 1.24rem + 1.1vw, 1.75rem);
+    --fs-body: clamp(0.875rem, .8rem + .3vw, 0.9375rem);
+    --fs-option: clamp(0.875rem, .7rem + .74vw, 1rem);
+
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --radius-card: 0.9375rem;
+    --radius-circle: 50%;
+    --radius-pill: 999rem;
+  }
+}
