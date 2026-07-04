@@ -36,7 +36,7 @@
 
     --ff-base: 'Overpass', system-ui, sans-serif;
 
-    --fs-heading: clamp(1.5rem, 1.24rem + 1.1vw, 1.75rem);
+    --fs-heading: clamp(1.5rem, 1.24rem + 1.1vw, 1.73rem);
     --fs-body: clamp(0.875rem, .8rem + .3vw, 0.9375rem);
     --fs-option: clamp(0.875rem, .7rem + .74vw, 1rem);
 
@@ -47,5 +47,7 @@
     --radius-card: 0.9375rem;
     --radius-circle: 50%;
     --radius-pill: 999rem;
+
+    --transition-fast: .25s ease;
   }
 }
