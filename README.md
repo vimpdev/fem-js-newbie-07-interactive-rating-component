@@ -14,8 +14,8 @@ An accessible and responsive interactive rating component built with semantic HT
 
 ## Live Demo
 
-- 🌎 [**Live Site**](https://vimpdev.github.io/fem-js-newbie-07-interactive-rating-component/)
-<!-- - 📌 [**Frontend Mentor Solution**]() -->
+- [**Live Site**](https://vimpdev.github.io/fem-js-newbie-07-interactive-rating-component/)
+- [**Frontend Mentor Solution**](https://www.frontendmentor.io/solutions/interactive-rating-component-accessible-ui-with-modern-css-AoyHvDCRC_)
 
 ---
 
